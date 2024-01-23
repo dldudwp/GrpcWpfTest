@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrpcWpfTestClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ecc60fce16671ebbee62683c5b612caceae7b38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406ecdcedeafe8ac14b382a800a04037d5fc51c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcWpfTestClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcWpfTestClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
