@@ -105,6 +105,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
             "Google.Protobuf": {
               "target": "Package",
               "version": "[3.25.2, )"
@@ -118,6 +122,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.60.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

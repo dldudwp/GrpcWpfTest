@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "90PPLBfo5FR4iE1I2FffsoJf3s3MQroUwgNvpNvRT7IyzcJS/YphZqJskBtz39FegkFnpe2Mio8IgEH5kTnh+w==",
+  "dgSpecHash": "EuFwRbgftxVEPMVtQDxR/IZHfsC8OG6sOQ6ae4MRyK7iyhID8fFKTq7C0o0SLRwVLYTlsONPvYEXC8Do/lVT/w==",
   "success": true,
   "projectFilePath": "C:\\Project\\GrpcWpfTest\\src\\GrpcWpfTest\\GrpcWpfTestClient\\GrpcWpfTestClient.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dldud\\.nuget\\packages\\google.protobuf\\3.25.2\\google.protobuf.3.25.2.nupkg.sha512",
+    "C:\\Users\\dldud\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.aspnetcore\\2.60.0\\grpc.aspnetcore.2.60.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.aspnetcore.server\\2.60.0\\grpc.aspnetcore.server.2.60.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.60.0\\grpc.aspnetcore.server.clientfactory.2.60.0.nupkg.sha512",
@@ -13,6 +13,7 @@
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.net.clientfactory\\2.60.0\\grpc.net.clientfactory.2.60.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.net.common\\2.60.0\\grpc.net.common.2.60.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.tools\\2.60.0\\grpc.tools.2.60.0.nupkg.sha512",
+    "C:\\Users\\dldud\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
@@ -21,6 +22,8 @@
     "C:\\Users\\dldud\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\dldud\\.nuget\\packages\\system.interactive.async\\6.0.1\\system.interactive.async.6.0.1.nupkg.sha512",
+    "C:\\Users\\dldud\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

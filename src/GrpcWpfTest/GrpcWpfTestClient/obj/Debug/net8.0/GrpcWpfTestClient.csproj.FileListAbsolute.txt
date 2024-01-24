@@ -4,9 +4,17 @@ C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWp
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWpfTestClient.dll
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWpfTestClient.pdb
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.Core.Api.dll
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\System.Interactive.Async.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\System.Linq.Async.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWpfTest.Common.dll
+C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWpfTest.Common.pdb
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\GrpcWpfTestClient.csproj.AssemblyReference.cache
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\GrpcWpfTestClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\GrpcWpfTestClient.AssemblyInfoInputs.cache
@@ -19,8 +27,3 @@ C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\refint
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\GrpcWpfTestClient.pdb
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\GrpcWpfTestClient.genruntimeconfig.cache
 C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\obj\Debug\net8.0\ref\GrpcWpfTestClient.dll
-C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
-C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
-C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
-C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWpfTest.Common.dll
-C:\Project\GrpcWpfTest\src\GrpcWpfTest\GrpcWpfTestClient\bin\Debug\net8.0\GrpcWpfTest.Common.pdb

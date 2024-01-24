@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProtoBuf Include="greet.proto" />
+    <ProtoBuf Include="driver.proto" />
   </ItemGroup>
 
 </Project>

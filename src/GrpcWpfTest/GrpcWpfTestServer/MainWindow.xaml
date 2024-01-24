@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:GrpcWpfTestServer"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
+        <ListBox  ItemsSource="{Binding Drivers}"/>
 
     </Grid>
 </Window>

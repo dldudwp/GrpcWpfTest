@@ -105,19 +105,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Google.Protobuf": {
-              "target": "Package",
-              "version": "[3.25.2, )"
-            },
             "Grpc.Net.Client": {
               "target": "Package",
               "version": "[2.60.0, )"
             },
-            "Grpc.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "System.Interactive.Async": {
               "target": "Package",
-              "version": "[2.60.0, )"
+              "version": "[6.0.1, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
