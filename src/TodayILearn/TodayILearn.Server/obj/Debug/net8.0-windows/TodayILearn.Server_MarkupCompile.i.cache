@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Project\TodayILearn\TodayILearn.Server\obj\Debug\net8.0-windows\
+C:\Project\GrpcWpfTest\src\TodayILearn\TodayILearn.Server\obj\Debug\net8.0-windows\
 TodayILearn.Server
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Project\TodayILearn\TodayILearn.Server\App.xaml
+C:\Project\GrpcWpfTest\src\TodayILearn\TodayILearn.Server\App.xaml
 11407045341
 
 101092497841
-3431402755948
+3431089749815
 MainWindow.xaml;
 
-False
+True
 

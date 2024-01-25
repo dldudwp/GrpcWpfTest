@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p3lCvgMKSEFzRGI5zv6An+/NGTffZEfJ3yVulQd1J2AcXdQGs4IGi4BA4DL//H0yX6/3mQjFteQvL2Tepva4yg==",
+  "dgSpecHash": "wOj+2/T8zzWAOH8sPDK2W8lIiDaw2tqY9DtngPmdai9Zket3LpJTA9qd7kGKVvgk7+/m+Lb9ayPqfazdOhi8zg==",
   "success": true,
-  "projectFilePath": "C:\\Project\\TodayILearn\\TodayILearn.Server\\TodayILearn.Server.csproj",
+  "projectFilePath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Server\\TodayILearn.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dldud\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\google.protobuf\\3.25.2\\google.protobuf.3.25.2.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj": {}
+    "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj": {}
   },
   "projects": {
-    "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj": {
+    "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj",
+        "projectUniqueName": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj",
         "projectName": "TodayILearn.Common",
-        "projectPath": "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj",
+        "projectPath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj",
         "packagesPath": "C:\\Users\\dldud\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\TodayILearn\\TodayILearn.Common\\obj\\",
+        "outputPath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dldud\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,8 +9,19 @@
     <Window.DataContext>
         <local:MainWindowViewModel />
     </Window.DataContext>
-    <StackPanel>
-        <Button Content="Test"  Command="{Binding OperationCommand}"/>
-        <ListBox  ItemsSource="{Binding Drivers}"/>
-    </StackPanel>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Button Content="Test"  Command="{Binding OperationCommand}"/>
+            <ListBox  ItemsSource="{Binding Drivers}"/>
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <ListBox  ItemsSource="{Binding Logs}"/>
+        </Grid>
+    </Grid>
+        
+    
 </Window>

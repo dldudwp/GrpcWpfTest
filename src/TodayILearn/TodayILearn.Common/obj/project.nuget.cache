@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ScgZL7QaLUCPnq5zOn269ibNADqehfoQJK+vKZiuXNbaP45Kd5eQwczw+dYgU4qEs/j/8Qwg6UioqetHDkhwXA==",
+  "dgSpecHash": "dOrjt50NPOzFsMi+dIbyveB+baClDczffFdABbUrpyEWjtTuviTv7yJGovxPVKXZRyBHUJW+YUHY/MWxFHQryw==",
   "success": true,
-  "projectFilePath": "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj",
+  "projectFilePath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dldud\\.nuget\\packages\\google.protobuf\\3.24.0\\google.protobuf.3.24.0.nupkg.sha512",
     "C:\\Users\\dldud\\.nuget\\packages\\grpc.aspnetcore\\2.60.0\\grpc.aspnetcore.2.60.0.nupkg.sha512",

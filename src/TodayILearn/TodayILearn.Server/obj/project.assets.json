@@ -875,11 +875,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\TodayILearn\\TodayILearn.Server\\TodayILearn.Server.csproj",
+      "projectUniqueName": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Server\\TodayILearn.Server.csproj",
       "projectName": "TodayILearn.Server",
-      "projectPath": "C:\\Project\\TodayILearn\\TodayILearn.Server\\TodayILearn.Server.csproj",
+      "projectPath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Server\\TodayILearn.Server.csproj",
       "packagesPath": "C:\\Users\\dldud\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\TodayILearn\\TodayILearn.Server\\obj\\",
+      "outputPath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dldud\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -896,8 +896,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj": {
-              "projectPath": "C:\\Project\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj"
+            "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj": {
+              "projectPath": "C:\\Project\\GrpcWpfTest\\src\\TodayILearn\\TodayILearn.Common\\TodayILearn.Common.csproj"
             }
           }
         }

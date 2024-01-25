@@ -23,12 +23,11 @@ namespace TodayILearn.Server
 
 			_driverSevice.Send += SendMessageing;
 
-
 			try
 			{
 				while (await requestStream.MoveNext())
 				{
-
+					_driverSevice.ReceivedMessage(mailboxName,requestStream.Current);
 				}
 			}
 			catch (Exception)
@@ -39,12 +38,15 @@ namespace TodayILearn.Server
 
 			async Task SendMessageing(SendMessage message)
 			{
-				await responseStream.WriteAsync(new ServerMessage
+				if(mailboxName.Equals(message.Name))
 				{
-					Name = message.Name,
-					Command = message.Command,
-					At = message.Timestamp
-				});
+					await responseStream.WriteAsync(new ServerMessage
+					{
+						Name = message.Name,
+						Command = message.Command,
+						At = message.Timestamp
+					});
+				}
 			}
 		}
 		

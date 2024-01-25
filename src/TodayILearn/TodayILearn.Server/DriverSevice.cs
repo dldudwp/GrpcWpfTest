@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.Messaging;
 using Google.Protobuf.WellKnownTypes;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,9 +22,17 @@ namespace TodayILearn.Server
 
 		public event Func<SendMessage, Task>? Send;
 
+		private readonly ConcurrentDictionary<string, List<string>> _driverlist = new();
+
 		public DriverSevice()
 		{
 			WeakReferenceMessenger.Default.Register<OperationMessage>(this, OnOperationMessage);
+		}
+
+		public void ReceivedMessage(string mailboxName, Common.DriverLog current)
+		{
+
+			
 		}
 
 		private void OnOperationMessage(object recipient, OperationMessage message)
