@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     
-    <Grid>
+    <StackPanel>
+        <Button Content="Test"  Command="{Binding OperationCommand}"/>
         <ListBox  ItemsSource="{Binding Drivers}"/>
 
-    </Grid>
+    </StackPanel>
 </Window>

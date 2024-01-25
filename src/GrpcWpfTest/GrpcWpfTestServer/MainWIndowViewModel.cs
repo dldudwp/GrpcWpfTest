@@ -1,28 +1,25 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using GrpcWpfTestServer.Model;
+using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
 using GrpcWpfTestServer.Services;
 using System.Collections.ObjectModel;
 
 namespace GrpcWpfTestServer
 {
-    [INotifyPropertyChanged]
+	[INotifyPropertyChanged]
 	public partial class MainWIndowViewModel
     {
-		private IDriverService _driverService;
-
-        ObservableCollection<DriverObject> driverObjects = new();
-
-        public MainWIndowViewModel(IDriverService driverService)
+		
+        public MainWIndowViewModel()
         {
-			_driverService = driverService;
-			_driverService.AddDriverEvent += OnAdddriver;
+	
 		}
 
-		private void OnAdddriver(object? sender, EventArgs e)
-		{
-			var driver = (DriverObject)sender;
 
-			driverObjects.Add(driver);
+		[RelayCommand]
+		private void Operation()
+		{
+			WeakReferenceMessenger.Default.Send(new OperationMessage { Name = "TestName" , Command = "TestCommand"});
 		}
 	}
 }

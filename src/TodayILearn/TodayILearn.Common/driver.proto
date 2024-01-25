@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "TodayILearn.Common";
+
+package TodayILearn.Common;
+
+service Driver {
+  // Sends a greeting
+    rpc Mailbox(stream DriverLog) returns (stream ServerMessage) {}
+}
+
+message DriverLog{
+	string name = 1;
+	string content =2;
+	google.protobuf.Timestamp at = 3;
+}
+
+message ServerMessage{
+	string name = 1;
+	string command = 2;
+	google.protobuf.Timestamp at = 3;
+}
+

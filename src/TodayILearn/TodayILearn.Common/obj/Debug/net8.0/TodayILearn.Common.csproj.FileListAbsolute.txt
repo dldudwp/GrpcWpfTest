@@ -1,0 +1,12 @@
+C:\Project\TodayILearn\TodayILearn.Common\bin\Debug\net8.0\TodayILearn.Common.deps.json
+C:\Project\TodayILearn\TodayILearn.Common\bin\Debug\net8.0\TodayILearn.Common.dll
+C:\Project\TodayILearn\TodayILearn.Common\bin\Debug\net8.0\TodayILearn.Common.pdb
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.csproj.AssemblyReference.cache
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.AssemblyInfoInputs.cache
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.AssemblyInfo.cs
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.csproj.CoreCompileInputs.cache
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.dll
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\refint\TodayILearn.Common.dll
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\TodayILearn.Common.pdb
+C:\Project\TodayILearn\TodayILearn.Common\obj\Debug\net8.0\ref\TodayILearn.Common.dll

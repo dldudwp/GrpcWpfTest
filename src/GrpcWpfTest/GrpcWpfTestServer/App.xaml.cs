@@ -1,7 +1,9 @@
 ﻿using GrpcWpfTestServer.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.DependencyInjection;
+using System.Net;
 using System.Windows;
 
 namespace GrpcWpfTestServer
@@ -11,11 +13,11 @@ namespace GrpcWpfTestServer
 	/// </summary>
 	public partial class App : Application
 	{
-		private WebApplication _app;
 		private IServiceProvider _serviceProvider;
+		private WebApplication m_app;
 
 		public App()
-        {
+		{
 			_serviceProvider = ServiceConfigure();
 		}
 
@@ -23,11 +25,9 @@ namespace GrpcWpfTestServer
 		{
 			IServiceCollection services = new ServiceCollection();
 
-			
-			services.AddSingleton<IDriverService, DriverService>();
-
 
 			services.AddSingleton<MainWIndowViewModel>();
+			services.AddSingleton<IDriverService, DriverService>();
 
 			return services.BuildServiceProvider();
 		}
@@ -37,28 +37,22 @@ namespace GrpcWpfTestServer
 		{
 			base.OnStartup(e);
 
+			var builder = WebApplication.CreateBuilder();
 
-			Task.Run(() => StartServer());
+			builder.WebHost.UseUrls("https://localhost:50052");
+			// Add services to the container.
+			builder.Services.AddGrpc();
 
+			m_app = builder.Build();
+
+			m_app.MapGrpcService<DriverGrpcService>();
+
+			m_app.RunAsync();
 
 			MainWindow win = new();
 			win.DataContext = _serviceProvider.GetService<MainWIndowViewModel>();
 			win.Show();
 
 		}
-
-		private void StartServer()
-		{
-			var builder = WebApplication.CreateBuilder();
-
-			builder.WebHost.UseUrls("http://*:5219" , "https://*:50052");
-
-			builder.Services.AddGrpc();
-
-			_app = builder.Build();
-			_app.MapGrpcService<DriverGrpcService>();
-			_app.Run();
-		}
 	}
-
 }

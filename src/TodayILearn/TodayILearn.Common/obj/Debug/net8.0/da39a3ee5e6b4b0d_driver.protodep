@@ -1,0 +1,3 @@
+obj\Debug\net8.0/Driver.cs \
+obj\Debug\net8.0/DriverGrpc.cs: C:/Users/dldud/.nuget/packages/grpc.tools/2.60.0/build/native/include/google/protobuf/timestamp.proto\
+ driver.proto

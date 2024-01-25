@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "GrpcWpfTest.Common";
+
+package GrpcWpfTest.Common;
+
+// The greeting service definition.
+service Driver {
+  // Sends a greeting
+    rpc Mailbox(stream DriverLog) returns (stream ServerMessage) {}
+}
+
+message DriverLog{
+	string name = 1;
+	string content =2;
+	google.protobuf.Timestamp at = 3;
+}
+
+message ServerMessage{
+	string name = 1;
+	string command = 2;
+	google.protobuf.Timestamp at = 3;
+}
+
